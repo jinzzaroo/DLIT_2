@@ -1,11 +1,7 @@
 import React from "react";
 
 import about from "../assets/img/trophy.jpg";
-
-const introText = {
-    title: "EURO 2024",
-    desc: ["Who", "will be the next", "champion?"],
-};
+import { introText } from "../constants";
 
 const Intro = () => {
     return (
